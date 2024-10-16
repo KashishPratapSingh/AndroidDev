@@ -25,7 +25,7 @@ class LpuLogin : AppCompatActivity() {
         signUp.setOnClickListener{
             val a=editText.text.toString()
             val b=a.toInt()
-            Log.i("Tag","$b")
+            Log.w("Tag","My logging")
             Toast.makeText(this,"Log In Successful",Toast.LENGTH_SHORT).show()
         }
         read.setOnClickListener{view ->

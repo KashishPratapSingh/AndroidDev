@@ -15,7 +15,7 @@ class LPUMAIN : AppCompatActivity() {
         setContentView(R.layout.activity_lpumain)
         var btn=findViewById<ImageButton>(R.id.img1)
         btn.setOnClickListener{
-            val i= Intent(this,LpuLogin::class.java)
+            val i= Intent(this,MenuBar::class.java)
             startActivity(i)
         }
     }
