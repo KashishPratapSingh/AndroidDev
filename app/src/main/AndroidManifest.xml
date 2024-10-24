@@ -6,7 +6,7 @@
         android:name="android.hardware.camera"
         android:required="false" />
 
-    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:allowBackup="true"
@@ -19,7 +19,10 @@
         android:theme="@style/Theme.Calculator"
         tools:targetApi="31">
         <activity
-            android:name=".PermissionApp"
+            android:name=".CapturePage"
+            android:exported="false" />
+        <activity
+            android:name=".LPUMAIN"
             android:exported="false" />
         <activity
             android:name=".PracticeMenu"
@@ -64,7 +67,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".LPUMAIN"
+            android:name=".PermissionApp"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
