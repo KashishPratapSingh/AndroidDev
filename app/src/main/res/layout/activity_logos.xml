@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@color/white"
     android:orientation="vertical">
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Welcome To LPU Community"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold|italic" />
 
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="658dp"
         android:layout_marginTop="100dp"
-        android:background="@color/black"
+        android:background="@color/white"
         android:columnCount="3"
         android:rowCount="3">
 
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:text="LPU CSE."
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold|italic" />
 
@@ -43,16 +43,14 @@
             android:layout_column="0"
             android:layout_margin="10dp"
             android:layout_marginTop="30dp"
-            android:background="@color/black"
             android:scaleType="fitXY"
             android:src="@drawable/lpu" />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
-            android:text="LPU CIVIL."
-            android:textColor="@color/white"
+            android:text="LPU CSE."
+            android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold|italic" />
 
@@ -64,16 +62,14 @@
             android:layout_column="1"
             android:layout_margin="10dp"
             android:layout_marginTop="30dp"
-            android:background="@color/black"
             android:scaleType="fitXY"
             android:src="@drawable/lpu" />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
-            android:text="LPU MEC."
-            android:textColor="@color/white"
+            android:text="LPU CSE."
+            android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold|italic" />
 
@@ -85,16 +81,14 @@
             android:layout_column="2"
             android:layout_margin="10dp"
             android:layout_marginTop="30dp"
-            android:background="@color/black"
             android:scaleType="fitXY"
             android:src="@drawable/lpu" />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
-            android:text="LPU ECE."
-            android:textColor="@color/white"
+            android:text="LPU CSE."
+            android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold|italic" />
 
@@ -106,16 +100,14 @@
             android:layout_column="0"
             android:layout_margin="10dp"
             android:layout_marginTop="30dp"
-            android:background="@color/black"
             android:scaleType="fitXY"
             android:src="@drawable/lpu" />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
-            android:text="LPU AGRI."
-            android:textColor="@color/white"
+            android:text="LPU CSE."
+            android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold|italic" />
 
@@ -127,16 +119,14 @@
             android:layout_column="1"
             android:layout_margin="10dp"
             android:layout_marginTop="30dp"
-            android:background="@color/black"
             android:scaleType="fitXY"
             android:src="@drawable/lpu" />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
-            android:text="LPU MBA"
-            android:textColor="@color/white"
+            android:text="LPU CSE."
+            android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold|italic" />
 
@@ -148,16 +138,14 @@
             android:layout_column="2"
             android:layout_margin="10dp"
             android:layout_marginTop="30dp"
-            android:background="@color/black"
             android:scaleType="fitXY"
             android:src="@drawable/lpu" />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
-            android:text="LPU CHE."
-            android:textColor="@color/white"
+            android:text="LPU CSE."
+            android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold|italic" />
 
@@ -169,16 +157,14 @@
             android:layout_column="0"
             android:layout_margin="10dp"
             android:layout_marginTop="30dp"
-            android:background="@color/black"
             android:scaleType="fitXY"
             android:src="@drawable/lpu" />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
-            android:text="LPU LAW"
-            android:textColor="@color/white"
+            android:text="LPU CSE."
+            android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold|italic" />
 
@@ -190,16 +176,14 @@
             android:layout_column="1"
             android:layout_margin="10dp"
             android:layout_marginTop="30dp"
-            android:background="@color/black"
             android:scaleType="fitXY"
             android:src="@drawable/lpu" />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
-            android:text="LPU PhyE."
-            android:textColor="@color/white"
+            android:text="LPU CSE."
+            android:textColor="@color/black"
             android:textSize="20sp"
             android:textStyle="bold|italic" />
 
@@ -211,9 +195,9 @@
             android:layout_column="2"
             android:layout_margin="10dp"
             android:layout_marginTop="30dp"
-            android:background="@color/black"
             android:scaleType="fitXY"
             android:src="@drawable/lpu" />
+
 
     </GridLayout>
 </LinearLayout>
