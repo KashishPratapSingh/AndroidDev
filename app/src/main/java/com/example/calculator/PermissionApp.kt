@@ -29,7 +29,7 @@ class PermissionApp : AppCompatActivity() {
             if(ContextCompat.checkSelfPermission(this,android.Manifest.permission.CAMERA)== PackageManager.PERMISSION_DENIED){
                 ActivityCompat.requestPermissions(this,arrayOf(android.Manifest.permission.CAMERA),c)
             }
-            if(ContextCompat.checkSelfPermission(this,android.Manifest.permission.CAMERA)== PackageManager.PERMISSION_DENIED){
+            if(ContextCompat.checkSelfPermission(this,android.Manifest.permission.CAMERA)== PackageManager.PERMISSION_GRANTED){
                 val i= Intent(MediaStore.ACTION_IMAGE_CAPTURE)
                 startActivity(i)
             }
