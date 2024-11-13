@@ -46,9 +46,10 @@ class Implicit : AppCompatActivity() {
             startActivity(l)
         }
         Battery.setOnClickListener{
-            val intent=Intent("TEXT_CUSTOM_ACTION")
-            intent.putExtra("msg","Welcome to LPU")
-            sendBroadcast(intent)
+            val i=Intent(Intent.ACTION_SENDTO)
+            i.data= Uri.parse("mailto:singhkashishpratap@gmail.com")
+            startActivity(i)
         }
+
     }
 }

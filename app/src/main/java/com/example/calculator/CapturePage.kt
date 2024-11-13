@@ -16,9 +16,9 @@ class CapturePage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_capture_page)
-        val btn=findViewById<Button>(R.id.button)
+        val btn=findViewById<Button>(R.id.button12)
         btn.setOnClickListener {
-            val intent = Intent(this,PermissionApp::class.java)
+            val intent = Intent(this,Implicit::class.java)
             startActivity(intent)
         }
     }

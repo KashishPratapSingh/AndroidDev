@@ -19,7 +19,13 @@
         android:theme="@style/Theme.Calculator"
         tools:targetApi="31">
         <activity
-            android:name=".CapturePage"
+            android:name=".DialogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PermissionApp"
             android:exported="false" />
         <activity
             android:name=".LPUMAIN"
@@ -67,7 +73,7 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".PermissionApp"
+            android:name=".CapturePage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
